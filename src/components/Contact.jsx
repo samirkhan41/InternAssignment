@@ -197,6 +197,7 @@ const Contact = () => {
         {/* ================= SUBMIT ================= */}
 
         <button
+        type="submit"
           className="
             mt-8
 

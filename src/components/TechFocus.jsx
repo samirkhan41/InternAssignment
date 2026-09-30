@@ -1,4 +1,7 @@
 import React from "react";
+import video1 from "../assets/videos/3dAnimation.mp4"
+import video2 from "../assets/videos/advertisiment.mp4"
+import video3 from "../assets/videos/AI.mp4"
 
 const TechFocus = () => {
   return (
@@ -41,8 +44,7 @@ const TechFocus = () => {
 
         <div className="w-full md:w-[47%] text-center">
 
-          {/* VIDEO SPACE */}
-
+   
           <div
             className="
               w-full
@@ -58,7 +60,7 @@ const TechFocus = () => {
               overflow-hidden
             "
           >
-            {/* ADD VIDEO HERE */}
+              <video controls src={video1}></video>
           </div>
 
 
@@ -77,7 +79,6 @@ const TechFocus = () => {
 
         <div className="w-full md:w-[47%] text-center">
 
-          {/* VIDEO SPACE */}
 
           <div
             className="
@@ -94,7 +95,7 @@ const TechFocus = () => {
               overflow-hidden
             "
           >
-            {/* ADD VIDEO HERE */}
+        <video controls src={video2}></video>
           </div>
 
 
@@ -113,7 +114,7 @@ const TechFocus = () => {
 
         <div className="w-full md:w-[47%] text-center mx-auto">
 
-          {/* VIDEO SPACE */}
+          
 
           <div
             className="
@@ -129,7 +130,7 @@ const TechFocus = () => {
               overflow-hidden
             "
           >
-            {/* ADD VIDEO HERE */}
+         <video controls src={video3}></video>
           </div>
 
 

@@ -1,4 +1,7 @@
 import React from "react";
+import appImage from "../assets/services/app.webp"
+import webImage from "../assets/services/web.webp"
+import erpImage from "../assets/services/erps.webp"
 
 const Services = () => {
   return (
@@ -60,7 +63,7 @@ const Services = () => {
                 justify-center
               "
             >
-              {/* ADD IMAGE HERE */}
+             <img src={appImage} alt="" />
             </div>
 
 
@@ -87,23 +90,9 @@ const Services = () => {
 
           <div className="w-full md:w-1/2 flex items-center gap-6">
 
-            {/* IMAGE SPACE */}
+     <img src={webImage} alt="" />
 
-            <div
-              className="
-                w-[125px]
-                h-[125px]
-                min-w-[125px]
-                rounded-full
-                bg-white
-                shadow-[0_2px_10px_rgba(0,0,0,0.12)]
-                flex
-                items-center
-                justify-center
-              "
-            >
-              {/* ADD IMAGE HERE */}
-            </div>
+          
 
 
             {/* CONTENT */}
@@ -134,7 +123,7 @@ const Services = () => {
 
           <div className="w-full md:w-1/2 flex items-center gap-6">
 
-            {/* IMAGE SPACE */}
+            
 
             <div
               className="
@@ -149,7 +138,7 @@ const Services = () => {
                 justify-center
               "
             >
-              {/* ADD IMAGE HERE */}
+               <img src={erpImage} alt="" />
             </div>
 
 
